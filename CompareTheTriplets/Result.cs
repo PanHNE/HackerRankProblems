@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CompareTheTriplets
 {
-    internal class Result
+    public static class Result
     {
         /*
          * Complete the 'compareTriplets' function below.
@@ -17,7 +17,7 @@ namespace CompareTheTriplets
          *  2. INTEGER_ARRAY b
          */
 
-        public static List<int> compareTriplets(List<int> a, List<int> b)
+        public static List<int> CompareTriplets(List<int> a, List<int> b)
         {
             var aPoints = 0;
             var bPoints = 0;
@@ -29,7 +29,6 @@ namespace CompareTheTriplets
             }
 
             return new List<int> { aPoints, bPoints };
-
         }
     }
 }

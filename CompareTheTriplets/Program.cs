@@ -25,7 +25,7 @@
 
             List<int> b = new List<int> { 3, 2, 1 };
 
-            List<int> result = Result.compareTriplets(a, b);
+            List<int> result = Result.CompareTriplets(a, b);
 
             Console.WriteLine(String.Join(" ", result));
 
